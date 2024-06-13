@@ -34,20 +34,25 @@ using LeetCodeProblems.Medium;
 
 //191. Number of 1 Bits
 //https://leetcode.com/problems/number-of-1-bits/description/
-NumberOf1Bits numberOf1Bits = new NumberOf1Bits();
+//NumberOf1Bits numberOf1Bits = new NumberOf1Bits();
 
-// Example 1
-int input1 = 11;
-int result1 = numberOf1Bits.HammingWeight(input1);
-Console.WriteLine($"Input: {input1}, Output: {result1}"); // Output: 3
+//// Example 1
+//int input1 = 11;
+//int result1 = numberOf1Bits.HammingWeight(input1);
+//Console.WriteLine($"Input: {input1}, Output: {result1}"); // Output: 3
 
-// Example 2
-int input2 = 128;
-int result2 = numberOf1Bits.HammingWeight(input2);
-Console.WriteLine($"Input: {input2}, Output: {result2}"); // Output: 1
+//// Example 2
+//int input2 = 128;
+//int result2 = numberOf1Bits.HammingWeight(input2);
+//Console.WriteLine($"Input: {input2}, Output: {result2}"); // Output: 1
 
-// Example 3
-int input3 = 2147483645;
-int result3 = numberOf1Bits.HammingWeight(input3);
-Console.WriteLine($"Input: {input3}, Output: {result3}"); // Output: 30
+//// Example 3
+//int input3 = 2147483645;
+//int result3 = numberOf1Bits.HammingWeight(input3);
+//Console.WriteLine($"Input: {input3}, Output: {result3}"); // Output: 30
 
+//338. Counting Bits
+//https://leetcode.com/problems/counting-bits/description/
+CountingBits countingBits = new CountingBits();
+int[] result = countingBits.CountBits(5);
+Console.WriteLine(string.Join(",", result)); // Output: 0,1,1,2,1,2
