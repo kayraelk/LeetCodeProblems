@@ -61,19 +61,34 @@ using LeetCodeProblems.Medium;
 
 #region 268. Missing Number
 //https://leetcode.com/problems/missing-number/description/
-MissingNumberSolution missingNumberSolution = new MissingNumberSolution();
+//MissingNumberSolution missingNumberSolution = new MissingNumberSolution();
 
-// Example 1
-int[] nums1 = { 3, 0, 1 };
-Console.WriteLine("Missing number in [3, 0, 1] is: " + missingNumberSolution.MissingNumber(nums1)); // Output: 2
+//// Example 1
+//int[] nums1 = { 3, 0, 1 };
+//Console.WriteLine("Missing number in [3, 0, 1] is: " + missingNumberSolution.MissingNumber(nums1)); // Output: 2
 
-// Example 2
-int[] nums2 = { 0, 1 };
-Console.WriteLine("Missing number in [0, 1] is: " + missingNumberSolution.MissingNumber(nums2)); // Output: 2
+//// Example 2
+//int[] nums2 = { 0, 1 };
+//Console.WriteLine("Missing number in [0, 1] is: " + missingNumberSolution.MissingNumber(nums2)); // Output: 2
 
-// Example 3
-int[] nums3 = { 9, 6, 4, 2, 3, 5, 7, 0, 1 };
-Console.WriteLine("Missing number in [9, 6, 4, 2, 3, 5, 7, 0, 1] is: " + missingNumberSolution.MissingNumber(nums3)); // Output: 8
+//// Example 3
+//int[] nums3 = { 9, 6, 4, 2, 3, 5, 7, 0, 1 };
+//Console.WriteLine("Missing number in [9, 6, 4, 2, 3, 5, 7, 0, 1] is: " + missingNumberSolution.MissingNumber(nums3)); // Output: 8
 
 #endregion
 
+#region 190. Reverse Bits
+ReverseBitsSolution solution = new ReverseBitsSolution();
+
+uint input1 = 43261596; // Binary: 00000010100101000001111010011100
+uint output1 = solution.reverseBits(input1);
+Console.WriteLine($"Input: {input1}, Reversed Output: {output1}");
+
+uint input2 = 4294967293; // Binary: 11111111111111111111111111111101
+uint output2 = solution.reverseBits(input2);
+Console.WriteLine($"Input: {input2}, Reversed Output: {output2}");
+
+// Keep the console window open
+Console.WriteLine("Press any key to exit.");
+Console.ReadKey();
+#endregion
