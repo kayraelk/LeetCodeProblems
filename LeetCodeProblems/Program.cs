@@ -78,17 +78,26 @@ using LeetCodeProblems.Medium;
 #endregion
 
 #region 190. Reverse Bits
-ReverseBitsSolution solution = new ReverseBitsSolution();
+//ReverseBitsSolution solution = new ReverseBitsSolution();
 
-uint input1 = 43261596; // Binary: 00000010100101000001111010011100
-uint output1 = solution.reverseBits(input1);
-Console.WriteLine($"Input: {input1}, Reversed Output: {output1}");
+//uint input1 = 43261596; // Binary: 00000010100101000001111010011100
+//uint output1 = solution.reverseBits(input1);
+//Console.WriteLine($"Input: {input1}, Reversed Output: {output1}");
 
-uint input2 = 4294967293; // Binary: 11111111111111111111111111111101
-uint output2 = solution.reverseBits(input2);
-Console.WriteLine($"Input: {input2}, Reversed Output: {output2}");
+//uint input2 = 4294967293; // Binary: 11111111111111111111111111111101
+//uint output2 = solution.reverseBits(input2);
+//Console.WriteLine($"Input: {input2}, Reversed Output: {output2}");
 
-// Keep the console window open
-Console.WriteLine("Press any key to exit.");
-Console.ReadKey();
+//// Keep the console window open
+//Console.WriteLine("Press any key to exit.");
+//Console.ReadKey();
+#endregion
+
+#region 70. Climbing Stairs
+//https://leetcode.com/problems/climbing-stairs/
+ClimbingStairs climbingStairs = new ClimbingStairs();
+for (int i = 0; i < 10; i++)
+{
+    Console.WriteLine(climbingStairs.ClimbStairs(i));
+}
 #endregion
