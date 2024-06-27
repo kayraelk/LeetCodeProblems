@@ -94,10 +94,19 @@ using LeetCodeProblems.Medium;
 #endregion
 
 #region 70. Climbing Stairs
-//https://leetcode.com/problems/climbing-stairs/
-ClimbingStairs climbingStairs = new ClimbingStairs();
-for (int i = 0; i < 10; i++)
-{
-    Console.WriteLine(climbingStairs.ClimbStairs(i));
-}
+////https://leetcode.com/problems/climbing-stairs/
+//ClimbingStairs climbingStairs = new ClimbingStairs();
+//for (int i = 0; i < 10; i++)
+//{
+//    Console.WriteLine(climbingStairs.ClimbStairs(i));
+//}
+#endregion
+
+#region 322. Coin Change
+//https://leetcode.com/problems/coin-change/
+CoinChangeSolution coinChangeSolution = new CoinChangeSolution();
+int[] coins = [1,2,5] ;
+var amount = 11;
+int result = coinChangeSolution.CoinChange(coins, amount);
+Console.WriteLine(result);
 #endregion
