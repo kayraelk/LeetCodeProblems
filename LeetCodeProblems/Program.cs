@@ -104,9 +104,19 @@ using LeetCodeProblems.Medium;
 
 #region 322. Coin Change
 //https://leetcode.com/problems/coin-change/
-CoinChangeSolution coinChangeSolution = new CoinChangeSolution();
-int[] coins = [1,2,5] ;
-var amount = 11;
-int result = coinChangeSolution.CoinChange(coins, amount);
-Console.WriteLine(result);
+//CoinChangeSolution coinChangeSolution = new CoinChangeSolution();
+//int[] coins = [1,2,5] ;
+//var amount = 11;
+//int result = coinChangeSolution.CoinChange(coins, amount);
+//Console.WriteLine(result);
+#endregion
+
+#region 300. Longest Increasing Subsequence
+//https://leetcode.com/problems/longest-increasing-subsequence/description/
+LongestIncreasingSubsequence solution = new LongestIncreasingSubsequence();
+
+Console.WriteLine(solution.LengthOfLIS(new int[] { 10, 9, 2, 5, 3, 7, 101, 18 })); // Output: 4
+Console.WriteLine(solution.LengthOfLIS(new int[] { 0, 1, 0, 3, 2, 3 }));           // Output: 4
+Console.WriteLine(solution.LengthOfLIS(new int[] { 7, 7, 7, 7, 7, 7, 7 }));
+
 #endregion
