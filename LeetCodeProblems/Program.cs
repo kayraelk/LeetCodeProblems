@@ -113,10 +113,20 @@ using LeetCodeProblems.Medium;
 
 #region 300. Longest Increasing Subsequence
 //https://leetcode.com/problems/longest-increasing-subsequence/description/
-LongestIncreasingSubsequence solution = new LongestIncreasingSubsequence();
+//LongestIncreasingSubsequence solution = new LongestIncreasingSubsequence();
 
-Console.WriteLine(solution.LengthOfLIS(new int[] { 10, 9, 2, 5, 3, 7, 101, 18 })); // Output: 4
-Console.WriteLine(solution.LengthOfLIS(new int[] { 0, 1, 0, 3, 2, 3 }));           // Output: 4
-Console.WriteLine(solution.LengthOfLIS(new int[] { 7, 7, 7, 7, 7, 7, 7 }));
+//Console.WriteLine(solution.LengthOfLIS(new int[] { 10, 9, 2, 5, 3, 7, 101, 18 })); // Output: 4
+//Console.WriteLine(solution.LengthOfLIS(new int[] { 0, 1, 0, 3, 2, 3 }));           // Output: 4
+//Console.WriteLine(solution.LengthOfLIS(new int[] { 7, 7, 7, 7, 7, 7, 7 }));
+
+#endregion
+
+#region 14. Longest Common Prefix
+LongestCommonPrefixSolution longestCommonPrefixSolution = new LongestCommonPrefixSolution();
+string[] strs1 = { "flower", "flow", "flight" };
+Console.WriteLine(longestCommonPrefixSolution.LongestCommonPrefix(strs1));  // Output: "fl"
+
+string[] strs2 = { "dog", "racecar", "car" };
+Console.WriteLine(longestCommonPrefixSolution.LongestCommonPrefix(strs2));  // Output: ""
 
 #endregion
