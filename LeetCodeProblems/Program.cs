@@ -122,11 +122,35 @@ using LeetCodeProblems.Medium;
 #endregion
 
 #region 14. Longest Common Prefix
-LongestCommonPrefixSolution longestCommonPrefixSolution = new LongestCommonPrefixSolution();
-string[] strs1 = { "flower", "flow", "flight" };
-Console.WriteLine(longestCommonPrefixSolution.LongestCommonPrefix(strs1));  // Output: "fl"
+//LongestCommonPrefixSolution longestCommonPrefixSolution = new LongestCommonPrefixSolution();
+//string[] strs1 = { "flower", "flow", "flight" };
+//Console.WriteLine(longestCommonPrefixSolution.LongestCommonPrefix(strs1));  // Output: "fl"
 
-string[] strs2 = { "dog", "racecar", "car" };
-Console.WriteLine(longestCommonPrefixSolution.LongestCommonPrefix(strs2));  // Output: ""
+//string[] strs2 = { "dog", "racecar", "car" };
+//Console.WriteLine(longestCommonPrefixSolution.LongestCommonPrefix(strs2));  // Output: ""
 
+#endregion
+
+#region 1. Two Sum
+
+TwoSum twoSum = new TwoSum();
+// Sample input for testing
+int[] nums = { 2, 7, 11, 15 };
+int target = 9;
+
+// Call the TwoSum function and get the result
+int[] result = twoSum.TwoSumMethod(nums, target);
+
+// Print the result
+if (result.Length == 2)
+{
+    Console.WriteLine($"Indices: {result[0]}, {result[1]}");
+}
+else
+{
+    Console.WriteLine("No solution found!");
+}
+
+// Keep the console window open
+Console.ReadLine();
 #endregion
